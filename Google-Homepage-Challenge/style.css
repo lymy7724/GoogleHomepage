@@ -1,0 +1,289 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0px;
+}
+
+/* header */
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 8px 9px;
+  
+}
+
+.link-container {
+  display: flex;
+  gap: 20px;
+}
+
+.link-container-2 {
+  display: flex;
+  gap: 15px;
+}
+
+.header-links {
+  text-decoration: none;
+  color: #cabfbf;
+  margin-left: 0;
+}
+
+.header-links-2 {
+  text-decoration: none;
+  color: white;
+  margin-left: 0;
+}
+
+.header-links:hover {
+  text-decoration: underline;
+}
+
+.header-links-2:hover {
+  text-decoration: underline;
+}
+
+#apps_logo {
+  height: 20px;
+  width: 18px;
+  
+}
+
+#apps_logo:hover {
+  box-shadow: 1px 1px #404040;
+  border-radius: 10px;
+}
+
+#pic-icon {
+  border-radius: 20px;
+  
+}
+
+.pic-icon-link:hover {
+  border-radius: 40px;
+}
+
+/* header on image page */
+.link-container2 {
+  display: flex;
+  justify-content: right;
+  
+
+}
+
+.pic-icon-link {
+  margin: 13px;
+}
+
+/* google image picture */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 150px;
+}
+
+.google {
+  width: 275px;
+  display: flex;
+  
+}
+
+/* search bar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: #7c7979;
+  gap: 2px;
+  padding: 15px;
+  margin: 20px;
+  width: 550px;
+  height: 15px;
+}
+
+.input-bar {
+  width: 460px;
+  background-color: #212121;
+  border: none;
+  color: white;
+}
+
+.svgicon {
+  width: 20px;
+}
+
+.colorlogo {
+  width: 25px;
+  padding: 6px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.searchbutton {
+  background-color: #626060;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+  opacity: 0.8;
+}
+
+/* footer */
+footer {
+  background-color: #141414;
+  width: 100%;
+  height: 45px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.leaf-container {
+  display: flex;
+  gap: 5px;
+  margin-right: 10%;
+}
+
+.footerlink-container {
+  display: flex;
+  gap: 30px;
+}
+
+.footerlink-container2 {
+  display: flex;
+  gap: 30px;
+  margin-right: 45px;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+#leaf {
+  width: 15px;
+  height: 15px;
+}
+
+/* advanced search page */
+.advbody{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.advhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.advgoog {
+  height: 25px;
+}
+
+#advancedsearchbox{
+  color: #cd5b5b;
+  font-family: sans-serif;
+  padding-left: 35px;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  border-color: #363636;
+}
+
+.footlist {
+  color:#7d7878;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.advform {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin-left: 35px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  gap: 18px;
+  color: white;
+  font-family: sans-serif;
+  border-bottom: 1px solid;
+  border-color: #363636;
+}
+
+.inputblock {
+  display: flex;
+  flex-direction: row;
+}
+
+.advlabel {
+  width:200px;
+  font-size: 12px;
+}
+
+.advinput {
+  background-color: #212121;
+  color: white;
+  border: 1px solid;
+  border-color: #7d7878;
+  width: 600px;
+  height: 25px;
+}
+
+.shortbox {
+  background-color: #212121;
+  border: 1px solid;
+  border-color: #7d7878;
+  width: 282px;
+  height: 25px;
+}
+
+.advbutton {
+  background-color: #7096f0;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+
+.advlist {
+  color: #6c96f9;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+}
